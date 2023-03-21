@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtivarDesativarActivity">
+
+    <ImageView
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:id= "@+id/imageView"
+        android:src= "@drawable/wifi"
+        android:layout_alignParentTop= "true"
+        android:layout_alignParentStart= "true"
+        android:layout_marginStart= "14dp"  />
+
+    <Button
+        android:id= "@+id/button1"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_marginLeft= "76dp"
+        android:text= "Ativar Wi-Fi"
+        android:layout_alignParentStart= "true"
+        android:layout_marginStart= "28dp"
+        android:layout_alignBottom= "@+id/button2"  />
+
+    <Button
+        android:id= "@+id/button2"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text= "Desativar Wi-Fi"
+        android:layout_marginBottom= "52dp"
+        android:layout_marginEnd= "14dp"
+        android:layout_alignParentBottom= "true"
+        android:layout_alignParentEnd= "true"  />
+
+</RelativeLayout>
